@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="minesweeper.css">
+    <script src="minesweeper.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="instuctionmines.html">Instructions</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Mines: <span id="mines-count">0</span></h1>
+    <div id="board"></div>
+    <br>
+    <button id="flag-button">🚩</button>
+    <button onclick="refreshPage()">↻</button>
+</body>
+</html>
